@@ -1,10 +1,12 @@
 import React from "react";
 import Sidebar from "../components/sidebar";
+import Mainpart from "../components/mainpart";
 
 const Home = () => {
   return (
-    <div>
+    <div className="containerChat">
       <Sidebar />
+      <Mainpart />
     </div>
   );
 };

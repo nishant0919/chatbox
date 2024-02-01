@@ -1,7 +1,7 @@
 import React from "react";
 import user_icon from "../assets/user_icon.png";
 
-const sidebar = () => {
+const Sidebar = () => {
   return (
     <div className="chatContainer">
       <div className="chatHeader">
@@ -86,4 +86,4 @@ const sidebar = () => {
   );
 };
 
-export default sidebar;
+export default Sidebar;
